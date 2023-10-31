@@ -10,7 +10,7 @@ cargar la imagen y mostrar sus dimensiones
 las imagenes se representan como arrays Numpy multidimensionales
 con filas, columnas y profundidad (numero de canales en este caso bgr)
 """
-image = cv2.imread("images/fecha1.jpg")
+image = cv2.imread("fechas/fecha1.jpg")
 h, w, c = image.shape
 print("width= {}, height={}, channels={}.".format(w, h, c))
 
